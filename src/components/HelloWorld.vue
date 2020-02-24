@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <el-button type="primary" @click="testGet">测试发GET请求</el-button>
+  </div>
 </template>
 
 <script>
