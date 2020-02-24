@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # treasure_life
 
 ## Project setup
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# VueCliFramework
+集成Vue-cli4、Axios、ElementUI框架
+>>>>>>> origin/master
