@@ -163,6 +163,12 @@ Vue.config.productionTip = false
 import serverApi from 'utils/server-api'
 Vue.prototype.http = new serverApi()
 
+import router from "./router/routes"
+
+import store from "./vuex/vuex"
+
 new Vue({
+	router,
+	store,
 	render: h => h(App),
 }).$mount('#app')
